@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="main_div">
+        <h1>Music Player</h1>
+        <div class="audio-container" id="audio-container">
+            <div class="audio-info">
+                <h4  id="title">Romantic </h4>
+                <h3  id="artist">Spinning star</h3>
+             
+            </div>
+            <audio src="music/romantic.mp3" id="audio"></audio>
+            <div class="img-container ">
+                <img src="images1/romantic.jpg" alt="music-cover" id="cover" >
+            </div>
+           
+            <div class="progress_container" id="progress_container">
+                <div class="progress_duration_meter">
+                    <div  id="current_time">0.00</div>
+                    <div id="duration">3.20</div>
+                </div>
+                <div class="progress_div" id="progress_div">
+                    <div class="progress" id="progress"></div>
+
+                </div>
+             </div>
+             <div class="navigation">
+                 <i class="fas fa-backward action-btn" id="prev" title="Previous" ></i>
+                 <i class="fas fa-play main-button" id="play" title="Play" ></i>
+                 <i class="fas fa-forward action-btn" id="next" title="Next" ></i>
+             </div>
+
+
+        </div>
+    </div>
+    <script src="main.js"> </script>
+    
+</body>
+</htsml>
